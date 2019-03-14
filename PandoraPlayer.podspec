@@ -19,5 +19,6 @@ Pod::Spec.new do |s|
   s.resources = "Player/**/*.{storyboard,xib,xcassets}"
 
   s.dependency "AudioKit"
-
+  s.static_framework = true
+  
 end
